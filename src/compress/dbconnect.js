@@ -4,9 +4,9 @@ const mysql = require('mysql');
 var con  = mysql.createPool({
   connectionLimit : 10,
   host: "localhost",
-  user: "mastpalc_icefame",
-  password: "SKT6!RHOZ7o!",
-  database: "mastpalc_icefame"
+  user: "",
+  password: "",
+  database: ""
 });
 
 module.exports = con;
